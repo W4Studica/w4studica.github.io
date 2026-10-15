@@ -1,0 +1,9 @@
+site_name: W4Studica
+site_url: https://w4studica.github.io/
+
+theme:
+  name: material
+  language: ko
+
+plugins:
+  - search
