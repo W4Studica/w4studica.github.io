@@ -23,6 +23,21 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v6
+      - name: Read pinned API source
+        id: api-source
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          source = json.load(open('apidocs/source.json'))
+          print('ref=' + source['ref'])
+          PY
+      - name: Check out pinned API source
+        uses: actions/checkout@v6
+        with:
+          repository: W4Studica/allwpilib
+          ref: ${{ steps.api-source.outputs.ref }}
+          path: .sources/allwpilib
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -32,6 +47,12 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Build site
         run: mkdocs build --strict
+      - name: Install API documentation tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends doxygen graphviz
+      - name: Build standalone API documentation
+        run: python scripts/build_apidocs.py --allwpilib .sources/allwpilib
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload site artifact
