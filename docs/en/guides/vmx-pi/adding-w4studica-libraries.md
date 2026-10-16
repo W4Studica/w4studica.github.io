@@ -2,11 +2,34 @@
 title: Adding W4Studica Libraries
 ---
 
-## Configure the project for VMX-Pi
+## Create a C++ robot project
 
-If you followed [VS Code Setup](vscode-setup.md), the project is already configured for VMX-Pi. The W4Studica extension connects the project to its compatible prebuilt WPILib and GradleRIO releases and adds the VMX build and deploy support when you select **W4Studica: Change the deploy target to VMX (from SystemCore)**.
+1. Open the Command Palette with **Ctrl+Shift+P** and run **WPILib: Create a new project**.
 
-You do not need to add dependency blocks or copy library files into `build.gradle` by hand. Keep the project open in WPILib VS Code when using W4Studica commands.
+   ![WPILib Create a new project command with the pointer over it](../../../assets/vscode-create-project-command-zoom.png)
+2. Set **Template** to **C++**.
+3. Select **Command v2 Robot**.
+4. Enter your team's assigned number in **Team Number**. Check that it matches your team before continuing.
+5. Complete the remaining project fields and select **Create Project**.
+
+   After the project opens, run a build and confirm that it succeeds. The screenshot shows **BUILD SUCCESSFUL**.
+
+   ![WPILib VS Code terminal showing BUILD SUCCESSFUL](../../../assets/vscode-build-success.png)
+6. With the project open, click the **W4Studica** icon in the editor toolbar to open its Command Palette. The screenshot shows the pointer on the W4Studica icon; the tooltip reads “Open W4Studica Command Palette.”
+
+   ![Mouse pointer over the W4Studica toolbar icon, with its Command Palette tooltip visible](../../../assets/vscode-w4studica-icon-click.png)
+7. Select **W4Studica: Change the deploy target to VMX (from SystemCore)**. The yellow outline and arrow in the screenshot mark this VMX target command.
+
+   ![Command Palette with the VMX deploy-target command outlined in yellow](../../../assets/vscode-command-palette-zoom.png)
+
+
+## Optional: Update W4Studica library versions
+
+With a project open, **W4Studica: Update W4Studica Version** downloads and pins the newest compatible W4Studica library versions for that project. This is a separate, optional maintenance command; it does not switch the deploy target.
+
+## Configure W4Studica libraries
+
+Selecting **W4Studica: Change the deploy target to VMX (from SystemCore)** in the project setup above connects the compatible prebuilt WPILib and GradleRIO releases and adds VMX build and deploy support. You do not need to add dependency blocks or copy library files into `build.gradle` by hand. Keep the project open in WPILib VS Code when using W4Studica commands.
 
 ## Build and deploy
 
