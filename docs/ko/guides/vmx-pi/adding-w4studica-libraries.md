@@ -47,18 +47,7 @@ Windows에서는 `gradlew.bat build`를 사용하세요. 빌드는 로봇 프로
 
 VMX 연결에는 사용자 이름 `ubuntu`, 비밀번호 `password`를 사용합니다.
 
-## Studica C++ 드라이버 사용
-
-VMX 프로젝트 구성에서 Studica 드라이버와 VMX 헬퍼 헤더를 사용할 수 있습니다. 예를 들어 W4Studica VMX C++ 샘플은 다음 헤더를 포함합니다.
-
-```cpp
-#include "titan.hpp"
-#include "wpi/halsim/vmx/SharedVMX.hpp"
-#include "wpi/halsim/vmx/StudicaTitan.hpp"
-#include "wpi/halsim/vmx/TitanEnableGuard.hpp"
-```
-
-드라이버 초기화와 Driver Station 활성화 처리는 [VMX C++ 전체 예제](https://github.com/W4Studica/GradleRIO/tree/main/examples/vmx-cpp)를 참고하세요. Studica 드라이버 객체를 만들 때는 `wpilibvmx::SharedVMX()`를 전달해 VMX 연결을 공유해야 합니다. `StudicaTitan`과 `TitanEnableGuard`는 Titan 활성 상태를 처리하며, 로봇 코드에서 모터 속도를 명령하는 부분은 별도로 작성해야 합니다.
+C++ 헤더와 로봇 코드 예제는 [Start Robot Coding](start-robot-coding.md)에서 확인하세요.
 
 ## 선택 사항: 오프라인 사용 준비
 
