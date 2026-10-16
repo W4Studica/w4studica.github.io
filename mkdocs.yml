@@ -9,6 +9,7 @@ theme:
   language: ko
   features:
     - navigation.tabs
+    - navigation.footer
 
 nav:
   - Introduction: index.md
