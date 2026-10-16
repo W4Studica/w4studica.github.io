@@ -20,9 +20,7 @@ Raspberry Pi Imager를 사용해 다운로드한 이미지를 SD 카드 또는 �
 
    ![Use custom 항목이 강조된 Raspberry Pi Imager 운영체제 목록](../../../assets/vmx-pi-setup/02-select-os.png)
 
-3. 앞에서 다운로드한 VMX-Pi 이미지 파일을 선택합니다. 캡처 예시에는 `WPILib 2027.iso` 파일이 표시되어 있습니다.
-
-   ![다운로드한 이미지 파일을 선택하는 Raspberry Pi Imager 파일 선택 화면](../../../assets/vmx-pi-setup/03-choose-image.png)
+3. 위 링크에서 다운로드한 VMX-Pi 이미지 파일을 선택합니다. `WPILib 2027.iso`는 PC용 WPILib 설치 파일이므로 선택하지 마세요. PC에 WPILib을 설치하려면 [Software Install](software-install.md)을 참고하세요.
 
 4. 이미지를 기록할 SD 카드 또는 저장 장치를 선택합니다. 다음 단계로 넘어가기 전에 장치 이름과 용량을 확인하세요.
 
@@ -40,9 +38,7 @@ Raspberry Pi Imager를 사용해 다운로드한 이미지를 SD 카드 또는 �
 
    ![기록한 이미지를 검증 중인 Raspberry Pi Imager 화면](../../../assets/vmx-pi-setup/07-verifying.png)
 
-8. **Write complete**가 표시되면 저장 장치를 사용할 수 있습니다. 예시에서는 장치가 자동으로 꺼내졌으며, 안전하게 분리할 수 있다고 표시됩니다.
-
-   ![기록 완료를 표시하는 Raspberry Pi Imager 화면](../../../assets/vmx-pi-setup/08-complete.png)
+8. **Write complete**가 표시되면 저장 장치를 사용할 수 있습니다. 장치가 자동으로 꺼내졌다면 안전하게 분리하면 됩니다.
 
 ## 로그인 정보
 

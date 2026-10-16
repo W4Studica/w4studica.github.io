@@ -20,9 +20,7 @@ Use Raspberry Pi Imager to write the downloaded image to an SD card or other int
 
    ![Raspberry Pi Imager operating system list with Use custom highlighted](../../../assets/vmx-pi-setup/02-select-os.png)
 
-3. Select the VMX-Pi image file you downloaded. The captured example shows a file named `WPILib 2027.iso`.
-
-   ![Raspberry Pi Imager file picker with the downloaded image selected](../../../assets/vmx-pi-setup/03-choose-image.png)
+3. Select the VMX-Pi image file you downloaded from the link above. Do not select `WPILib 2027.iso`: that is the WPILib installer for your computer, not a VMX-Pi image. See [Software Install](software-install.md) to install it on your computer.
 
 4. Choose the SD card or storage device you intend to write to. Check its name and capacity before continuing.
 
@@ -40,9 +38,7 @@ Use Raspberry Pi Imager to write the downloaded image to an SD card or other int
 
    ![Raspberry Pi Imager verifying the written image](../../../assets/vmx-pi-setup/07-verifying.png)
 
-8. When Imager reports **Write complete**, the storage device is ready. In this example, it was ejected automatically and can be removed safely.
-
-   ![Raspberry Pi Imager write complete screen](../../../assets/vmx-pi-setup/08-complete.png)
+8. When Imager reports **Write complete**, the storage device is ready. If it is ejected automatically, you can remove it safely.
 
 ## Login credentials
 
