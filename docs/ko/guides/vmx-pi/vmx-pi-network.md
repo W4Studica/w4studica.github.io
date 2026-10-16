@@ -2,7 +2,7 @@
 title: VMX-Pi 네트워크
 ---
 
-VMX-Pi는 Wi-Fi 핫스팟, 공유기 Wi-Fi, 유선 연결로 PC와 통신할 수 있습니다. 네트워크 명령은 `install.sh`로 설치한 뒤 로봇에서 실행합니다.
+VMX-Pi는 Wi-Fi 핫스팟, 공유기 Wi-Fi, 유선 연결로 PC와 통신할 수 있습니다.
 
 ## 기본 연결
 

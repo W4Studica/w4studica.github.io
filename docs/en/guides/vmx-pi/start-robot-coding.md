@@ -23,4 +23,4 @@ For a Titan, use `wpilibvmx::StudicaTitan` with `wpilibvmx::TitanEnableGuard`. T
 
 See the [complete VMX C++ example](https://github.com/W4Studica/GradleRIO/tree/main/examples/vmx-cpp) for object initialization, periodic motor commands, and Driver Station handling.
 
-For build, deploy, and offline dependency setup, return to [Adding W4Studica Libraries](adding-w4studica-libraries.md).
+For offline dependency setup, return to [Adding W4Studica Libraries](adding-w4studica-libraries.md).

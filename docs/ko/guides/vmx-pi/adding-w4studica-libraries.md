@@ -38,22 +38,6 @@ title: W4Studica 라이브러리 추가
 
 위 프로젝트 설정에서 `W4Studica: Change the deploy target to VMX (from SystemCore)`를 선택하면 호환되는 사전 빌드 WPILib 및 GradleRIO 릴리스가 연결되고 VMX 빌드·배포 지원이 프로젝트에 추가됩니다. `build.gradle`에 의존성 블록을 직접 추가하거나 라이브러리 파일을 프로젝트에 복사할 필요가 없습니다. W4Studica 명령을 사용할 때는 WPILib VS Code에서 프로젝트를 열어 두세요.
 
-## 빌드 및 배포
-
-Gradle Wrapper로 컴퓨터에서 로봇 프로그램을 빌드합니다.
-
-```bash
-./gradlew build
-```
-
-Windows에서는 `gradlew.bat build`를 사용하세요. 빌드는 로봇 프로젝트를 개발 컴퓨터에서 컴파일하며 VMX-Pi에 연결해 VMX SDK를 가져오지 않습니다. 배포하려면 VMX 대상이 설정되어 있어야 하고 로봇에 연결할 수 있어야 합니다. 네트워크 설정은 [VMX-Pi 네트워크](vmx-pi-network.md)를 참고하세요.
-
-```bash
-./gradlew deploy
-```
-
-VMX 연결에는 사용자 이름 `ubuntu`, 비밀번호 `password`를 사용합니다.
-
 C++ 헤더와 로봇 코드 예제는 [로봇 코딩 시작하기](start-robot-coding.md)에서 확인하세요.
 
 ## 선택 사항: 오프라인 사용 준비

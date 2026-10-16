@@ -38,22 +38,6 @@ With a project open, **W4Studica: Update W4Studica Version** downloads and pins 
 
 Selecting **W4Studica: Change the deploy target to VMX (from SystemCore)** in the project setup above connects the compatible prebuilt WPILib and GradleRIO releases and adds VMX build and deploy support. You do not need to add dependency blocks or copy library files into `build.gradle` by hand. Keep the project open in WPILib VS Code when using W4Studica commands.
 
-## Build and deploy
-
-Build the robot program on your computer with the Gradle wrapper:
-
-```bash
-./gradlew build
-```
-
-On Windows, use `gradlew.bat build`. Building compiles the robot project locally. It does not connect to the VMX-Pi to fetch the VMX SDK. Deployment uses the VMX target and requires the robot to be reachable; see [VMX-Pi Network](vmx-pi-network.md).
-
-```bash
-./gradlew deploy
-```
-
-The VMX connection uses username `ubuntu` and password `password`.
-
 For C++ headers and robot code examples, continue to [Start Robot Coding](start-robot-coding.md).
 
 ## Optional: Prepare for offline use

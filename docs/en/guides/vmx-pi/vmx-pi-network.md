@@ -2,7 +2,7 @@
 title: VMX-Pi Network
 ---
 
-The VMX-pi can communicate with a PC over its Wi-Fi hotspot, a Wi-Fi router, or Ethernet. Install the network commands with `install.sh`, then run them on the robot.
+The VMX-pi can communicate with a PC over its Wi-Fi hotspot, a Wi-Fi router, or Ethernet.
 
 ## Default connection
 

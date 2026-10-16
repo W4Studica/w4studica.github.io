@@ -23,4 +23,4 @@ Titan에는 `wpilibvmx::StudicaTitan`과 `wpilibvmx::TitanEnableGuard`를 사용
 
 객체 초기화, 주기적인 모터 명령, Driver Station 처리는 [VMX C++ 전체 예제](https://github.com/W4Studica/GradleRIO/tree/main/examples/vmx-cpp)를 참고하세요.
 
-빌드·배포와 오프라인 의존성 설정은 [W4Studica 라이브러리 추가](adding-w4studica-libraries.md) 안내를 참고하세요.
+오프라인 의존성 설정은 [W4Studica 라이브러리 추가](adding-w4studica-libraries.md) 안내를 참고하세요.

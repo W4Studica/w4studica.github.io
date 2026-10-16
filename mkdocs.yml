@@ -6,7 +6,18 @@ theme:
   name: material
   logo: assets/w4studica-icon.svg
   favicon: assets/w4studica-icon.png
-  language: ko
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.footer
@@ -43,6 +54,19 @@ plugins:
         - locale: ko
           name: 한국어
           build: true
+          theme:
+            language: ko
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                toggle:
+                  icon: material/weather-night
+                  name: 어두운 모드로 전환
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                toggle:
+                  icon: material/weather-sunny
+                  name: 밝은 모드로 전환
           site_name: W4Studica
           site_description: Studica VMX-pi에서 2027 WPILib을 사용하기 위한 커뮤니티 프로젝트.
           nav_translations:
