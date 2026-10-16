@@ -4,9 +4,10 @@ MkDocs builds the guides at `/`. Doxygen Awesome **Base** builds a standalone
 C++ API reference at `/apidocs/`, with its own class tree, symbol search, source
 browser and light/dark toggle. The MkDocs theme does not wrap the API pages.
 
-The Korean introduction lives in `docs/index.md` and uses the standard Material
-theme, including its navigation, search and table of contents. Navigation links
-to the standalone API reference and GitHub.
+The site introduction is available in English at `/` and Korean at `/ko/`.
+Place translated pages in the corresponding `docs/en/` and `docs/ko/` folders.
+The standard Material language selector switches between matching page
+translations. API reference and GitHub links are in the navigation.
 
 The API source commit and displayed version are pinned in `apidocs/source.json`.
 Inputs are WPILib public headers, Studica driver headers and W4Studica VMX
