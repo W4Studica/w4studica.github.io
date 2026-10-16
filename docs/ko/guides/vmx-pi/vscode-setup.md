@@ -45,3 +45,7 @@ title: VS Code Setup
 ## 선택 사항: W4Studica 라이브러리 버전 업데이트
 
 프로젝트가 열린 상태에서 **W4Studica: Update W4Studica Version**을 실행하면 해당 프로젝트에 사용할 수 있는 최신 W4Studica 라이브러리 버전을 내려받아 고정합니다. 이 명령은 별도의 선택적 유지 관리 기능이며, 배포 대상을 VMX로 바꾸지는 않습니다.
+
+## 다음 단계
+
+[Adding W4Studica Libraries](adding-w4studica-libraries.md)로 이동해 VMX-Pi 라이브러리 설정을 계속하세요.
