@@ -1,0 +1,38 @@
+---
+template: home.html
+title: 프로젝트 소개
+---
+
+<p class="home-kicker">프로젝트 소개 <span>현재 베타 개발 중</span></p>
+
+# VMX-pi를 위한<br>2027 WPILib.
+
+<p class="home-intro">W4Studica는 Studica VMX-pi에서 2027 WPILib으로 로봇을 개발하고 실행할 수 있도록 만드는 커뮤니티 프로젝트입니다.</p>
+
+## 이 프로젝트를 시작한 이유
+
+VMX-pi에서 사용하던 WPILib 환경은 2020 버전을 기반으로 하고 있습니다.
+그동안 WPILib의 개발 도구와 라이브러리는 계속 바뀌었지만, VMX-pi에서 그 변화를 그대로 사용하기는 어려웠습니다.
+
+이미 가지고 있는 VMX-pi와 Studica 장치를 사용하면서, 최근 WPILib으로 로봇 코드를 작성할 수 있으면 좋겠다는 생각이 출발점이었습니다.
+W4Studica는 그 사이를 연결하기 위해 시작했습니다.
+
+## 기존의 개발 방식을 이어가도록
+
+로봇 코드는 PC에서 작성하고 빌드한 뒤, GradleRIO로 VMX-pi에 배포합니다.
+VMX-pi에서는 WPILib의 시뮬레이션 HAL과 VMX 하드웨어를 연결하는 확장을 통해 로봇 프로그램을 실행합니다.
+
+디지털 입출력, 아날로그 입력, 엔코더처럼 연결된 기능은 WPILib 인터페이스로 사용하고,
+Titan 등 Studica 장치의 고유 기능은 Studica API와 W4Studica의 보조 클래스를 함께 사용합니다.
+빌드와 배포부터 로봇에서의 실행까지 이어지는 환경을 만드는 것이 이 프로젝트의 목표입니다.
+
+## 현재 진행 상황
+
+현재는 **2027.0.0-alpha-7 기반의 베타 버전**입니다.
+C++ 로봇 프로그램의 빌드와 배포, 디지털 입출력·아날로그 입력·엔코더·Titan 제어는 실제 VMX-pi에서 확인했습니다.
+IMU는 일부 축과 부호를 더 확인해야 하며, WPILib의 PWM·DutyCycle·I2C 하드웨어 연결은 보류 중입니다.
+
+모든 WPILib 기능이 VMX-pi에 연결된 단계는 아닙니다.
+사용할 수 있는 기능과 아직 확인이 필요한 부분을 구분하면서, 코드와 문서를 함께 정리하고 있습니다.
+
+<p class="home-note">W4Studica는 Studica 또는 WPILib의 공식 배포판이 아닌 커뮤니티 프로젝트입니다.</p>

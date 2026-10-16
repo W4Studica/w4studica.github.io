@@ -1,9 +1,18 @@
 site_name: W4Studica
 site_url: https://w4studica.github.io/
+site_description: Studica VMX-pi에서 2027 WPILib을 사용하기 위한 커뮤니티 프로젝트, W4Studica.
 
 theme:
   name: material
   language: ko
+  custom_dir: overrides
+  font: false
+
+extra_css:
+  - stylesheets/home.css
+
+nav:
+  - 소개: index.md
 
 plugins:
   - search

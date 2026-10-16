@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+
+{% block header %}
+<header class="home-header" data-md-component="header">
+  <nav class="home-header__inner" aria-label="주 메뉴">
+    <a class="home-brand" href="{{ nav.homepage.url | url }}" aria-label="W4Studica 홈">W4Studica<span aria-hidden="true">.</span></a>
+    <div class="home-links">
+      <a href="{{ 'apidocs/' | url }}">C++ API</a>
+      <a href="https://github.com/W4Studica">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </nav>
+</header>
+{% endblock %}
+
+{% block site_nav %}{% endblock %}
+
+{% block container %}
+<div class="md-content home-content" data-md-component="content">
+  <article class="md-content__inner md-typeset home-article">
+    {{ page.content }}
+  </article>
+</div>
+{% endblock %}
+
+{% block footer %}
+<footer class="home-footer">
+  <div class="home-footer__inner">
+    <span>W4Studica</span>
+    <a href="https://github.com/W4Studica/w4studica.github.io">이 사이트의 소스 <span aria-hidden="true">↗</span></a>
+  </div>
+</footer>
+{% endblock %}
