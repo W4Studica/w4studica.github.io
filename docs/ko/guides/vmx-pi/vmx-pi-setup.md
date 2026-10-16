@@ -44,9 +44,9 @@ Raspberry Pi Imager를 사용해 다운로드한 이미지를 SD 카드 또는 �
 
    ![기록 완료를 표시하는 Raspberry Pi Imager 화면](../../../assets/vmx-pi-setup/08-complete.png)
 
-## 초기 로그인
+## 로그인 정보
 
-처음 로그인할 때 다음 정보를 사용하세요.
+다음은 VMX-Pi에 고정된 로그인 정보입니다. VMX-Pi 시스템에 로그인할 때마다 이 정보를 사용하세요.
 
 | 사용자 이름 | 비밀번호 |
 |---|---|

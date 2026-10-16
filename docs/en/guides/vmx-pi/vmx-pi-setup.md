@@ -44,9 +44,9 @@ Use Raspberry Pi Imager to write the downloaded image to an SD card or other int
 
    ![Raspberry Pi Imager write complete screen](../../../assets/vmx-pi-setup/08-complete.png)
 
-## Initial login
+## Login credentials
 
-Use these credentials for the first login:
+These are the fixed VMX-Pi login credentials. Use them whenever you log in to the VMX-Pi system:
 
 | Username | Password |
 |---|---|
