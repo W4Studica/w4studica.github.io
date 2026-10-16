@@ -8,11 +8,15 @@ title: VS Code Setup
 
    ![VSIX 파일이 표시된 W4Studica VS Code Extension 릴리스 페이지](../../assets/vscode-extension-release.png)
 
-2. WPILib VS Code에서 **Extensions** 화면을 열고 **…** → `Install from VSIX…`를 선택합니다.
+2. WPILib VS Code의 Activity Bar에서 **Extensions** 아이콘을 클릭합니다. 아래 캡처에서 마우스 포인터가 해당 아이콘을 가리킵니다.
+
+   ![마우스 포인터가 올라간 WPILib VS Code Extensions 아이콘](../../assets/vscode-extensions-icon-zoom.png)
+
+3. Extensions 화면에서 **…**를 누른 다음 `Install from VSIX…`를 선택합니다.
 
    ![Extensions 메뉴에서 Install from VSIX를 선택하는 화면과 마우스 포인터 확대](../../assets/vscode-install-menu-zoom.png)
 
-3. 다운로드한 `.vsix` 파일을 선택하고 **Install**을 누릅니다.
+4. 다운로드한 `.vsix` 파일을 선택하고 **Install**을 누릅니다.
 
    ![파일 선택 창에서 다운로드한 vmxpi-wsr VSIX를 선택한 모습](../../assets/vscode-file-picker-zoom.png)
 
