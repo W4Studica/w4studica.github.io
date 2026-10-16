@@ -48,4 +48,12 @@ plugins:
           nav_translations:
             Introduction: 소개
             Documentation: 문서
+            VMX-Pi Setup: VMX-Pi 설정
+            VMX-Pi Network: VMX-Pi 네트워크
+            Software Install: 소프트웨어 설치
+            VS Code Setup: VS Code 설정
+            Adding W4Studica Libraries: W4Studica 라이브러리 추가
             Start Robot Coding: 로봇 코딩 시작하기
+            WPILib Official Documentation: WPILib 공식 문서
+            Studica Official Documentation: Studica 공식 문서
+            C++ API: C++ API 문서

@@ -1,5 +1,5 @@
 ---
-title: Software Install
+title: 소프트웨어 설치
 ---
 
 ## WPILib 2027 Alpha 7 다운로드
@@ -11,7 +11,7 @@ title: Software Install
 이 설치 안내는 [WPILib 공식 설치 문서](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/wpilib-setup.html)를 참고해 작성했습니다. 이 버전은 정식 출시 전 프리릴리스이므로 설치 전에 문서에서 최신 요구 사항과 릴리스 정보를 확인하세요.
 
 !!! warning "이 설치 파일은 컴퓨터용입니다"
-    Windows `.iso`는 컴퓨터에 WPILib을 설치하기 위한 디스크 이미지입니다. Raspberry Pi Imager로 SD 카드에 기록하지 마세요. 로봇 저장 장치를 준비할 때는 [VMX-Pi Setup](vmx-pi-setup.md)에 있는 별도의 VMX-Pi 이미지를 사용하세요.
+    Windows `.iso`는 컴퓨터에 WPILib을 설치하기 위한 디스크 이미지입니다. Raspberry Pi Imager로 SD 카드에 기록하지 마세요. 로봇 저장 장치를 준비할 때는 [VMX-Pi 설정](vmx-pi-setup.md)에 있는 별도의 VMX-Pi 이미지를 사용하세요.
 
 ## Windows에 설치하기
 
@@ -47,6 +47,6 @@ Windows에서 “Windows protected your PC” 창이 나오면 **More info**를 
 
 ## 로봇에 배포하기 전에
 
-컴퓨터에 WPILib을 설치해도 VMX-Pi 운영체제 이미지는 설치되지 않습니다. [VMX-Pi Setup](vmx-pi-setup.md)에서 로봇 이미지를 별도로 준비한 뒤, [Adding W4Studica Libraries](adding-w4studica-libraries.md)의 안내를 따르세요.
+컴퓨터에 WPILib을 설치해도 VMX-Pi 운영체제 이미지는 설치되지 않습니다. [VMX-Pi 설정](vmx-pi-setup.md)에서 로봇 이미지를 별도로 준비한 뒤, [W4Studica 라이브러리 추가](adding-w4studica-libraries.md)의 안내를 따르세요.
 
 WPILib Alpha 7은 호환성이 변경된 프리릴리스입니다. 공식 릴리스 안내에는 공식 Systemcore 환경의 요구 사항으로 Systemcore Image 14와 FIRST Driver Station Alpha 7이 명시되어 있습니다. VMX-Pi에 배포하기 전 W4Studica 안내에서 해당 로봇 이미지와 호환되는 절차를 확인하세요.

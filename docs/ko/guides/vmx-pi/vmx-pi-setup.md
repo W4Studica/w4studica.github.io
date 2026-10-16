@@ -1,5 +1,5 @@
 ---
-title: VMX-Pi Setup
+title: VMX-Pi 설정
 ---
 
 ## VMX-Pi 이미지 다운로드
@@ -20,7 +20,7 @@ Raspberry Pi Imager를 사용해 다운로드한 이미지를 SD 카드 또는 �
 
    ![Use custom 항목이 강조된 Raspberry Pi Imager 운영체제 목록](../../../assets/vmx-pi-setup/02-select-os.png)
 
-3. 위 링크에서 다운로드한 VMX-Pi 이미지 파일을 선택합니다. `WPILib 2027.iso`는 PC용 WPILib 설치 파일이므로 선택하지 마세요. PC에 WPILib을 설치하려면 [Software Install](software-install.md)을 참고하세요.
+3. 위 링크에서 다운로드한 VMX-Pi 이미지 파일을 선택합니다. `WPILib 2027.iso`는 PC용 WPILib 설치 파일이므로 선택하지 마세요. PC에 WPILib을 설치하려면 [소프트웨어 설치](software-install.md)을 참고하세요.
 
 4. 이미지를 기록할 SD 카드 또는 저장 장치를 선택합니다. 다음 단계로 넘어가기 전에 장치 이름과 용량을 확인하세요.
 
