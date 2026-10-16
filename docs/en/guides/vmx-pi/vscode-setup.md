@@ -32,10 +32,13 @@ Next, create a WPILib robot project below. Keep the project open when you choose
 4. Enter your team's assigned number in **Team Number**. Check that it matches your team before continuing.
 5. Complete the remaining project fields and select **Create Project**.
 
-   The generated project opens in WPILib VS Code. This captured project also shows a successful build.
+   After the project opens, run a build and confirm that it succeeds. The screenshot shows **BUILD SUCCESSFUL**.
 
-   ![Generated WPILib project open in VS Code with a successful build](../../../assets/vscode-project-created.png)
-6. With the generated project open, open the Command Palette and select **W4Studica: Change the deploy target to VMX (from SystemCore)**. The yellow outline and arrow in the screenshot mark the VMX target command.
+   ![WPILib VS Code terminal showing BUILD SUCCESSFUL](../../../assets/vscode-build-success.png)
+6. With the project open, click the **W4Studica** icon in the editor toolbar to open its Command Palette. The screenshot shows the pointer on the W4Studica icon; the tooltip reads “Open W4Studica Command Palette.”
+
+   ![Mouse pointer over the W4Studica toolbar icon, with its Command Palette tooltip visible](../../../assets/vscode-w4studica-icon-click.png)
+7. Select **W4Studica: Change the deploy target to VMX (from SystemCore)**. The yellow outline and arrow in the screenshot mark this VMX target command.
 
    ![Command Palette with the VMX deploy-target command outlined in yellow](../../../assets/vscode-command-palette-zoom.png)
 

@@ -32,10 +32,13 @@ title: VS Code Setup
 4. **Team Number**에 팀에서 사용하는 번호를 입력합니다. 다음 단계로 넘어가기 전에 팀 번호가 정확한지 확인하세요.
 5. 나머지 프로젝트 정보를 입력하고 **Create Project**를 선택합니다.
 
-   프로젝트가 WPILib VS Code에서 열립니다. 아래 캡처에는 프로젝트 생성 후 빌드 성공 화면도 보입니다.
+   프로젝트가 열리면 빌드를 실행해 성공하는지 확인합니다. 아래 캡처에 **BUILD SUCCESSFUL** 결과가 보입니다.
 
-   ![WPILib VS Code에서 열린 프로젝트와 빌드 성공 화면](../../assets/vscode-project-created.png)
-6. 생성된 프로젝트를 연 상태에서 명령 팔레트를 열고 **W4Studica: Change the deploy target to VMX (from SystemCore)**를 선택합니다. 아래 캡처에서 노란 테두리와 화살표가 VMX 대상 명령을 가리킵니다.
+   ![WPILib VS Code 터미널의 BUILD SUCCESSFUL 결과](../../assets/vscode-build-success.png)
+6. 프로젝트를 연 상태에서 편집기 도구 모음의 **W4Studica** 아이콘을 클릭해 W4Studica 명령 팔레트를 엽니다. 아래 캡처에서 포인터가 W4Studica 아이콘 위에 있고, 툴팁에 “Open W4Studica Command Palette”라고 표시됩니다.
+
+   ![명령 팔레트 툴팁과 함께 포인터가 올라간 W4Studica 도구 모음 아이콘](../../assets/vscode-w4studica-icon-click.png)
+7. **W4Studica: Change the deploy target to VMX (from SystemCore)**를 선택합니다. 아래 캡처에서 노란 테두리와 화살표가 VMX 대상 명령을 가리킵니다.
 
    ![노란색으로 VMX 배포 대상 명령을 강조한 명령 팔레트](../../assets/vscode-command-palette-zoom.png)
 
