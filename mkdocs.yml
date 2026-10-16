@@ -12,6 +12,8 @@ nav:
   - Introduction: index.md
   - Documentation:
       - VMX-Pi:
+          - VMX-Pi Setup: guides/vmx-pi/vmx-pi-setup.md
+          - VMX-Pi Network: guides/vmx-pi/vmx-pi-network.md
           - Software Install: guides/vmx-pi/software-install.md
           - VS Code Setup: guides/vmx-pi/vscode-setup.md
           - Adding W4Studica Libraries: guides/vmx-pi/adding-w4studica-libraries.md
