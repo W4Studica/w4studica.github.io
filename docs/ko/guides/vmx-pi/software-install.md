@@ -4,16 +4,9 @@ title: Software Install
 
 ## WPILib 2027 Alpha 7 다운로드
 
-[WPILib 2027.0.0-alpha-7 릴리스 페이지](https://github.com/wpilibsuite/allwpilib/releases/tag/v2027.0.0-alpha-7)를 열고 컴퓨터의 운영체제와 프로세서에 맞는 설치 파일을 다운로드하세요.
+[WPILib 2027.0.0-alpha-7 릴리스 페이지](https://github.com/wpilibsuite/allwpilib/releases/tag/v2027.0.0-alpha-7)를 여세요. 아래 사진처럼 **Downloads** 영역에서 컴퓨터에 맞는 항목을 클릭하면 됩니다. 프로세서에 따라 x64 또는 Arm64를 선택하고, Mac은 Apple silicon이면 **Mac (Arm)**, Intel Mac이면 **Mac (Intel)**을 선택하세요.
 
-| 컴퓨터 | 릴리스 파일 |
-|---|---|
-| Windows 11, 64-bit x64 | `WPILib_Windows-x64-2027.0.0-alpha-7.iso` |
-| Windows 11, 64-bit Arm | `WPILib_Windows-Arm64-2027.0.0-alpha-7.iso` |
-| macOS, Apple silicon | `WPILib_macOS-Arm64-2027.0.0-alpha-7.dmg` |
-| macOS, Intel | `WPILib_macOS-Intel-2027.0.0-alpha-7.dmg` |
-| Linux, x64 | `WPILib_Linux-x64-2027.0.0-alpha-7.tar.gz` |
-| Linux, Arm64 | `WPILib_Linux-Arm64-2027.0.0-alpha-7.tar.gz` |
+[![WPILib 릴리스의 Downloads 영역](../../assets/wpilib-downloads.png)](https://github.com/wpilibsuite/allwpilib/releases/tag/v2027.0.0-alpha-7)
 
 이 설치 안내는 [WPILib 공식 설치 문서](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/wpilib-setup.html)를 참고해 작성했습니다. 이 버전은 정식 출시 전 프리릴리스이므로 설치 전에 문서에서 최신 요구 사항과 릴리스 정보를 확인하세요.
 
