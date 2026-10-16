@@ -15,7 +15,7 @@ title: Software Install
 | Linux, x64 | `WPILib_Linux-x64-2027.0.0-alpha-7.tar.gz` |
 | Linux, Arm64 | `WPILib_Linux-Arm64-2027.0.0-alpha-7.tar.gz` |
 
-This is a pre-release. Check the [official WPILib installation guide](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/wpilib-setup.html) for current requirements and release notes before installing.
+These installation instructions reference the [official WPILib installation guide](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/wpilib-setup.html). This is a pre-release, so check that guide for current requirements and release notes before installing.
 
 !!! warning "This installer is for your computer"
     The Windows `.iso` is a disk image containing the WPILib computer installer. Do **not** write it to an SD card with Raspberry Pi Imager. Use the separate VMX-Pi image from [VMX-Pi Setup](vmx-pi-setup.md) when preparing the robot's storage device.

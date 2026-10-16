@@ -15,7 +15,7 @@ title: Software Install
 | Linux, x64 | `WPILib_Linux-x64-2027.0.0-alpha-7.tar.gz` |
 | Linux, Arm64 | `WPILib_Linux-Arm64-2027.0.0-alpha-7.tar.gz` |
 
-이 버전은 정식 출시 전 프리릴리스입니다. 설치 전 [WPILib 공식 설치 안내](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/wpilib-setup.html)에서 최신 요구 사항과 릴리스 정보를 확인하세요.
+이 설치 안내는 [WPILib 공식 설치 문서](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/wpilib-setup.html)를 참고해 작성했습니다. 이 버전은 정식 출시 전 프리릴리스이므로 설치 전에 문서에서 최신 요구 사항과 릴리스 정보를 확인하세요.
 
 !!! warning "이 설치 파일은 컴퓨터용입니다"
     Windows `.iso`는 컴퓨터에 WPILib을 설치하기 위한 디스크 이미지입니다. Raspberry Pi Imager로 SD 카드에 기록하지 마세요. 로봇 저장 장치를 준비할 때는 [VMX-Pi Setup](vmx-pi-setup.md)에 있는 별도의 VMX-Pi 이미지를 사용하세요.

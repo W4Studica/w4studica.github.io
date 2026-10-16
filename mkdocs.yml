@@ -4,6 +4,8 @@ site_description: A community project bringing 2027 WPILib to the Studica VMX-pi
 
 theme:
   name: material
+  logo: assets/w4studica-icon.svg
+  favicon: assets/w4studica-icon.png
   language: ko
   features:
     - navigation.tabs
