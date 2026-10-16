@@ -1,13 +1,10 @@
 ---
-template: home.html
 title: 프로젝트 소개
 ---
 
-<p class="home-kicker">프로젝트 소개 <span>현재 베타 개발 중</span></p>
+# W4Studica
 
-# VMX-pi를 위한<br>2027 WPILib.
-
-<p class="home-intro">W4Studica는 Studica VMX-pi에서 2027 WPILib으로 로봇을 개발하고 실행할 수 있도록 만드는 커뮤니티 프로젝트입니다.</p>
+W4Studica는 Studica VMX-pi에서 2027 WPILib으로 로봇을 개발하고 실행할 수 있도록 만드는 커뮤니티 프로젝트입니다. 현재 베타 버전을 개발하고 있습니다.
 
 ## 이 프로젝트를 시작한 이유
 
@@ -35,4 +32,4 @@ IMU는 일부 축과 부호를 더 확인해야 하며, WPILib의 PWM·DutyCycle
 모든 WPILib 기능이 VMX-pi에 연결된 단계는 아닙니다.
 사용할 수 있는 기능과 아직 확인이 필요한 부분을 구분하면서, 코드와 문서를 함께 정리하고 있습니다.
 
-<p class="home-note">W4Studica는 Studica 또는 WPILib의 공식 배포판이 아닌 커뮤니티 프로젝트입니다.</p>
+W4Studica는 Studica 또는 WPILib의 공식 배포판이 아닌 커뮤니티 프로젝트입니다.
