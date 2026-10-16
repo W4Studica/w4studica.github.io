@@ -44,7 +44,7 @@ title: VS Code Setup
 
 ## 다음 단계
 
-[Adding W4Studica Libraries](/ko/guides/vmx-pi/adding-w4studica-libraries/)로 이동해 VMX-Pi 라이브러리 설정을 계속하세요.
+[Adding W4Studica Libraries](adding-w4studica-libraries.md)로 이동해 VMX-Pi 라이브러리 설정을 계속하세요.
 
 ## 선택 사항: W4Studica 라이브러리 버전 업데이트
 

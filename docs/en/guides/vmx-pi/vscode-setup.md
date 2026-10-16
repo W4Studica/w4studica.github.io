@@ -44,7 +44,7 @@ Next, create a WPILib robot project below. Keep the project open when you choose
 
 ## Next step
 
-Continue with [Adding W4Studica Libraries](/guides/vmx-pi/adding-w4studica-libraries/) to configure the VMX-Pi libraries.
+Continue with [Adding W4Studica Libraries](adding-w4studica-libraries.md) to configure the VMX-Pi libraries.
 
 ## Optional: Update W4Studica library versions
 
