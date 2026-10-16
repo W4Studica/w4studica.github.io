@@ -5,6 +5,8 @@ site_description: A community project bringing 2027 WPILib to the Studica VMX-pi
 theme:
   name: material
   language: ko
+  features:
+    - navigation.tabs
 
 nav:
   - Introduction: index.md
