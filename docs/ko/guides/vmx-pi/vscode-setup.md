@@ -8,7 +8,7 @@ title: VS Code Setup
 
    ![VSIX 파일이 표시된 W4Studica VS Code Extension 릴리스 페이지](../../assets/vscode-extension-release.png)
 
-2. WPILib VS Code에서 **Extensions** 화면을 열고 **…** → **Install from VSIX…**를 선택합니다.
+2. WPILib VS Code에서 **Extensions** 화면을 열고 **…** → `Install from VSIX…`를 선택합니다.
 
    ![Extensions 메뉴에서 Install from VSIX를 선택하는 화면과 마우스 포인터 확대](../../assets/vscode-install-menu-zoom.png)
 
@@ -25,7 +25,7 @@ title: VS Code Setup
 ## C++ 로봇 프로젝트 만들기
 
 1. **Ctrl+Shift+P**로 명령 팔레트를 열고 **WPILib: Create a new project**를 실행합니다.
-2. **Template**에서 **C++**를 선택합니다.
+2. **Template**에서 `C++`를 선택합니다.
 3. 프로젝트 종류로 **Command v2 Robot**을 선택합니다.
 4. **Team Number**에 팀에서 사용하는 번호를 입력합니다. 다음 단계로 넘어가기 전에 팀 번호가 정확한지 확인하세요.
 5. 나머지 프로젝트 정보를 입력하고 **Create Project**를 선택합니다.
