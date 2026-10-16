@@ -42,10 +42,10 @@ Next, create a WPILib robot project below. Keep the project open when you choose
 
    ![Command Palette with the VMX deploy-target command outlined in yellow](../../../assets/vscode-command-palette-zoom.png)
 
+## Next step
+
+Continue with [Adding W4Studica Libraries](/guides/vmx-pi/adding-w4studica-libraries/) to configure the VMX-Pi libraries.
+
 ## Optional: Update W4Studica library versions
 
 With a project open, **W4Studica: Update W4Studica Version** downloads and pins the newest compatible W4Studica library versions for that project. This is a separate, optional maintenance command; it does not switch the deploy target.
-
-## Next step
-
-Continue with [Adding W4Studica Libraries](adding-w4studica-libraries.md) to configure the VMX-Pi libraries.
