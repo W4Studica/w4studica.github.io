@@ -14,11 +14,11 @@ The default setup creates a `WorldSkills-1234` hotspot with password `password` 
 | Ethernet | `172.22.11.2` | Set the PC's wired IPv4 to DHCP/automatic |
 | Wi-Fi router | Address assigned by the router | Connect the VMX-pi and PC to the same router |
 
-After joining the hotspot or connecting a cable, connect over SSH. Replace `<user>` with the VMX-pi login account.
+After joining the hotspot or connecting a cable, connect over SSH. The VMX-pi username is `ubuntu`.
 
 ```sh
-ssh <user>@10.12.34.2
-ssh <user>@172.22.11.2
+ssh ubuntu@10.12.34.2
+ssh ubuntu@172.22.11.2
 ```
 
 ## Change the hotspot name or password
