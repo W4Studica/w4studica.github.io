@@ -16,9 +16,7 @@ title: VS Code Setup
 
    ![The downloaded vmxpi-wsr VSIX selected in the file picker](../../../assets/vscode-file-picker-zoom.png)
 
-4. Create or open a WPILib robot project before using the W4Studica project commands. They are only available when a project is open.
-
-Use the WPILib-installed VS Code for robot projects so its WPILib tools and extensions are available. For VMX-Pi project setup and deployment, continue with [Adding W4Studica Libraries](adding-w4studica-libraries.md).
+Next, create a WPILib robot project below. Keep the project open when you choose the VMX deploy target; W4Studica project commands are available only while a project is open. Use WPILib-installed VS Code so the WPILib tools and extensions are available.
 
 ## Create a C++ robot project
 
@@ -37,4 +35,6 @@ Use the WPILib-installed VS Code for robot projects so its WPILib tools and exte
 
    ![Command Palette with the VMX deploy-target command outlined in yellow](../../../assets/vscode-command-palette-zoom.png)
 
-**Update W4Studica Version** has a different purpose: it downloads and pins the newest compatible W4Studica release versions for the open project. It does not switch the deploy target. Run it only when you want to update those library versions.
+## Optional: Update W4Studica library versions
+
+With a project open, **W4Studica: Update W4Studica Version** downloads and pins the newest compatible W4Studica library versions for that project. This is a separate, optional maintenance command; it does not switch the deploy target.

@@ -16,9 +16,7 @@ title: VS Code Setup
 
    ![파일 선택 창에서 다운로드한 vmxpi-wsr VSIX를 선택한 모습](../../assets/vscode-file-picker-zoom.png)
 
-4. W4Studica 프로젝트 명령을 사용하려면 먼저 WPILib 로봇 프로젝트를 만들거나 열어야 합니다. 프로젝트가 열려 있을 때만 이 명령들을 사용할 수 있습니다.
-
-로봇 프로젝트에서는 WPILib 도구와 확장 프로그램이 설치된 WPILib VS Code를 사용하세요. VMX-Pi 프로젝트 구성과 배포 방법은 [Adding W4Studica Libraries](adding-w4studica-libraries.md)를 참고하세요.
+이제 아래 순서대로 WPILib 로봇 프로젝트를 만드세요. VMX 배포 대상을 선택할 때 프로젝트가 열려 있어야 합니다. W4Studica 프로젝트 명령은 프로젝트가 열려 있을 때만 사용할 수 있습니다. WPILib 도구와 확장 프로그램이 설치된 WPILib VS Code를 사용하세요.
 
 ## C++ 로봇 프로젝트 만들기
 
@@ -37,4 +35,6 @@ title: VS Code Setup
 
    ![노란색으로 VMX 배포 대상 명령을 강조한 명령 팔레트](../../assets/vscode-command-palette-zoom.png)
 
-**Update W4Studica Version**은 다른 기능입니다. 열린 프로젝트에 사용할 수 있는 최신 W4Studica 라이브러리 버전을 내려받아 고정할 때 사용하며, 배포 대상을 VMX로 바꾸지는 않습니다. 라이브러리 버전을 업데이트할 때만 실행하세요.
+## 선택 사항: W4Studica 라이브러리 버전 업데이트
+
+프로젝트가 열린 상태에서 **W4Studica: Update W4Studica Version**을 실행하면 해당 프로젝트에 사용할 수 있는 최신 W4Studica 라이브러리 버전을 내려받아 고정합니다. 이 명령은 별도의 선택적 유지 관리 기능이며, 배포 대상을 VMX로 바꾸지는 않습니다.
