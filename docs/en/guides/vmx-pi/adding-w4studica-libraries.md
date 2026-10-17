@@ -40,8 +40,14 @@ Selecting **W4Studica: Change the deploy target to VMX (from SystemCore)** in th
 
 For C++ headers and robot code examples, continue to [Start Robot Coding](start-robot-coding.md).
 
+## Fetch the VMX SDK
+
+The VMX HAL headers and library belong to Studica and are not part of the W4Studica download. The first time, with the VMX-Pi connected, run **deploy** (the SDK is fetched before the build) or run `./gradlew fetchVmxSdksystemcore` in the project terminal. Afterwards the project keeps its own copy, and `build` works without the robot, even after `clean`.
+
 ## Optional: Prepare for offline use
 
-To cache the project's dependencies for later offline builds, connect the development computer to the Internet and run **W4Studica: Save W4Studica Offline** from the W4Studica command palette. For a C++ VMX project, the VMX-Pi must also be reachable during the initial SDK setup. This step is only needed when you want to prepare offline builds; an ordinary online `build` does not need the robot.
+To cache the project's dependencies for later offline builds, connect the development computer to the Internet and run **W4Studica: Save W4Studica Offline** from the W4Studica command palette. The SDK from the previous step must already have been fetched.
 
 Run the offline preparation command again after changing the deploy target, updating W4Studica versions, or adding dependencies or vendor libraries.
+
+If something goes wrong, see [Troubleshooting](troubleshooting.md).

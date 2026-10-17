@@ -40,8 +40,14 @@ title: W4Studica 라이브러리 추가
 
 C++ 헤더와 로봇 코드 예제는 [로봇 코딩 시작하기](start-robot-coding.md)에서 확인하세요.
 
+## VMX SDK 가져오기
+
+VMX HAL 헤더와 라이브러리는 Studica 소유라서 W4Studica 다운로드에 들어 있지 않습니다. 처음에는 VMX-Pi를 연결한 상태에서 **deploy**를 실행하거나(빌드 전에 SDK를 가져옵니다) 프로젝트 터미널에서 `./gradlew fetchVmxSdksystemcore`를 실행하세요. 그 뒤에는 프로젝트가 자체 사본을 보관하므로 `clean` 후에도 로봇 없이 `build`할 수 있습니다.
+
 ## 선택 사항: 오프라인 사용 준비
 
-나중에 오프라인 빌드를 할 수 있도록 프로젝트 의존성을 캐시하려면 개발 컴퓨터를 인터넷에 연결한 상태에서 W4Studica 명령 팔레트의 `W4Studica: Save W4Studica Offline`을 실행하세요. C++ VMX 프로젝트는 최초 SDK 설정 중 VMX-Pi에도 연결할 수 있어야 합니다. 이 과정은 오프라인 빌드를 준비할 때만 필요하며, 일반적인 온라인 `build`에는 로봇 연결이 필요하지 않습니다.
+나중에 오프라인 빌드를 할 수 있도록 프로젝트 의존성을 캐시하려면 개발 컴퓨터를 인터넷에 연결한 상태에서 W4Studica 명령 팔레트의 `W4Studica: Save W4Studica Offline`을 실행하세요. 앞 단계에서 SDK를 이미 가져온 상태여야 합니다.
 
 배포 대상을 바꾸거나 W4Studica 버전을 업데이트하거나 의존성·벤더 라이브러리를 추가한 뒤에는 오프라인 준비 명령을 다시 실행하세요.
+
+문제가 생기면 [문제 해결](troubleshooting.md)을 참고하세요.

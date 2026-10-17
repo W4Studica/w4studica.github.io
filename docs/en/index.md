@@ -24,7 +24,7 @@ hide:
 
 - :material-chip: **WPILib classes on VMX hardware**
 
-    Digital I/O, analog input and encoders work through WPILib. Studica devices such as the Titan use Studica's API with W4Studica helper classes.
+    Digital I/O, analog input, encoders, PWM and the IMU work through WPILib classes. Studica devices such as the Titan use Studica's API with W4Studica helper classes.
 
 - :material-shield-check: **Titan safety**
 
@@ -50,10 +50,10 @@ Write and build C++ robot code on a PC, then deploy it to the VMX-pi with Gradle
 
 !!! info "Beta, based on 2027.0.0-alpha-7"
 
-    C++ build and deployment, digital I/O, analog input, encoders, and Titan control have been checked on a VMX-pi.
+    C++ build and deployment, digital I/O, analog input, encoders, IMU yaw and Titan control have been checked on a VMX-pi.
 
-!!! warning "Not available yet"
+!!! warning "Not tested or not available yet"
 
-    Some IMU behavior still needs verification. WPILib hardware support for PWM, DutyCycle, and I2C is not available yet. Java robot programs are not supported.
+    PWM and servo output and battery voltage are in this beta but have not been tested on a robot. IMU roll, pitch and Z-rate directions still need verification. WPILib I2C, DutyCycle and IMU quaternion output are not available, and Java robot programs are not supported. See [Hardware Support](guides/vmx-pi/hardware-support.md).
 
 We are documenting what works and expanding support over time. W4Studica is a community project and is not an official Studica or WPILib distribution.

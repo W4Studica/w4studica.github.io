@@ -2,7 +2,7 @@
 title: Start Robot Coding
 ---
 
-This page covers the C++ code that uses the VMX-Pi and Studica libraries. Set the project to the VMX target first, as described in [Adding W4Studica Libraries](adding-w4studica-libraries.md).
+This page covers the C++ code that uses the VMX-Pi and Studica libraries. Set the project to the VMX target first, as described in [Adding W4Studica Libraries](adding-w4studica-libraries.md). To use WPILib classes such as `DigitalInput`, `Encoder`, `AnalogInput`, `PWM` or `OnboardIMU`, connect their channels to VMX channels first: see [Hardware Support](hardware-support.md).
 
 ## Include the Studica headers
 

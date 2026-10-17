@@ -36,6 +36,8 @@ nav:
       - VS Code Setup: guides/vmx-pi/vscode-setup.md
       - Adding W4Studica Libraries: guides/vmx-pi/adding-w4studica-libraries.md
       - Start Robot Coding: guides/vmx-pi/start-robot-coding.md
+      - Hardware Support: guides/vmx-pi/hardware-support.md
+      - Troubleshooting: guides/vmx-pi/troubleshooting.md
       - WPILib Official Documentation: https://docs.wpilib.org/en/2027/
       - Studica Official Documentation: https://learn.studica.com/
   - C++ API: https://w4studica.github.io/apidocs/
@@ -95,6 +97,8 @@ plugins:
             VS Code Setup: VS Code 설정
             Adding W4Studica Libraries: W4Studica 라이브러리 추가
             Start Robot Coding: 로봇 코딩 시작하기
+            Hardware Support: 하드웨어 지원
+            Troubleshooting: 문제 해결
             WPILib Official Documentation: WPILib 공식 문서
             Studica Official Documentation: Studica 공식 문서
             C++ API: C++ API 문서

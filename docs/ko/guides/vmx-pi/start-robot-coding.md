@@ -2,7 +2,7 @@
 title: 로봇 코딩 시작하기
 ---
 
-이 페이지에서는 VMX-Pi 및 Studica 라이브러리를 사용하는 C++ 코드를 설명합니다. 먼저 [W4Studica 라이브러리 추가](adding-w4studica-libraries.md)의 안내대로 프로젝트 배포 대상을 VMX로 설정하세요.
+이 페이지에서는 VMX-Pi 및 Studica 라이브러리를 사용하는 C++ 코드를 설명합니다. 먼저 [W4Studica 라이브러리 추가](adding-w4studica-libraries.md)의 안내대로 프로젝트 배포 대상을 VMX로 설정하세요. `DigitalInput`, `Encoder`, `AnalogInput`, `PWM`, `OnboardIMU` 같은 WPILib 클래스를 쓰려면 먼저 채널을 VMX 채널에 연결해야 합니다. [하드웨어 지원](hardware-support.md)을 참고하세요.
 
 ## Studica 헤더 포함하기
 

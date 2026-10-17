@@ -63,3 +63,8 @@
   background-color: #8c9eff;
   color: #1a1b26;
 }
+
+/* Setting names in tables stay in one piece; a wide table scrolls instead. */
+.md-typeset table:not([class]) code {
+  white-space: nowrap;
+}

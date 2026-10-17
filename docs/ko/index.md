@@ -24,7 +24,7 @@ hide:
 
 - :material-chip: **VMX 하드웨어에서 WPILib 클래스**
 
-    디지털 입출력, 아날로그 입력, 엔코더는 WPILib 방식으로 사용합니다. Titan 같은 Studica 장치는 Studica API와 W4Studica 도우미 클래스로 사용합니다.
+    디지털 입출력, 아날로그 입력, 엔코더, PWM, IMU는 WPILib 클래스로 사용합니다. Titan 같은 Studica 장치는 Studica API와 W4Studica 도우미 클래스로 사용합니다.
 
 - :material-shield-check: **Titan 안전 장치**
 
@@ -53,10 +53,10 @@ VMX-pi에서는 WPILib과 하드웨어 드라이버를 이어주는 W4Studica �
 
 !!! info "베타, 2027.0.0-alpha-7 기반"
 
-    C++ 로봇 프로그램의 빌드와 배포, 디지털 입출력·아날로그 입력·엔코더·Titan 제어를 실제 VMX-pi에서 확인했습니다.
+    C++ 로봇 프로그램의 빌드와 배포, 디지털 입출력·아날로그 입력·엔코더·IMU yaw·Titan 제어를 실제 VMX-pi에서 확인했습니다.
 
-!!! warning "아직 제공하지 않는 것"
+!!! warning "아직 시험하지 않았거나 제공하지 않는 것"
 
-    IMU는 일부 동작을 더 확인해야 합니다. PWM·DutyCycle·I2C의 WPILib 하드웨어 지원은 아직 없고, Java 로봇 프로그램은 지원하지 않습니다.
+    PWM·서보 출력과 배터리 전압은 이번 베타에 들어 있지만 아직 로봇에서 시험하지 않았습니다. IMU roll, pitch, Z축 각속도의 방향은 더 확인해야 합니다. WPILib의 I2C, DutyCycle, IMU 쿼터니언 출력은 아직 없고, Java 로봇 프로그램은 지원하지 않습니다. 자세한 내용은 [하드웨어 지원](guides/vmx-pi/hardware-support.md)을 참고하세요.
 
 지원 범위를 넓히면서 기능별 확인 결과와 사용 방법을 문서에 정리하고 있습니다. W4Studica는 Studica 또는 WPILib의 공식 배포판이 아닌 커뮤니티 프로젝트입니다.
