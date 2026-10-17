@@ -11,6 +11,7 @@ hide:
 **Studica VMX-pi에서 2027 WPILib을.** 현재 베타 버전을 개발하는 커뮤니티 프로젝트입니다.
 
 [시작하기](guides/vmx-pi/vmx-pi-setup.md){ .md-button .md-button--primary }
+[C++ API](https://w4studica.github.io/apidocs/){ .md-button }
 [GitHub](https://github.com/W4Studica){ .md-button }
 
 </div>

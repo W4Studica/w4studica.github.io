@@ -11,6 +11,7 @@ hide:
 **2027 WPILib on the Studica VMX-pi.** A community project, currently in beta.
 
 [Get started](guides/vmx-pi/vmx-pi-setup.md){ .md-button .md-button--primary }
+[C++ API](https://w4studica.github.io/apidocs/){ .md-button }
 [GitHub](https://github.com/W4Studica){ .md-button }
 
 </div>

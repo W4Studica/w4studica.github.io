@@ -39,6 +39,8 @@ guard.Start();
 
 두 신호가 한 번씩 들어오기 전까지 워치독은 비활성 상태입니다. 타이머나 Guard가 아니라 실제 이벤트에서만 호출하세요. Guard보다 먼저 만들어 Guard보다 오래 살아 있게 하세요. 위 시간은 예시이며, 실제 로봇에서 정지까지 걸리는 시간은 아직 측정하지 않았습니다.
 
+클래스와 메서드는 [C++ API 문서](https://w4studica.github.io/apidocs/)를 참고하세요.
+
 객체 초기화, 주기적인 모터 명령, Driver Station 처리는 [VMX C++ 전체 예제](https://github.com/W4Studica/GradleRIO/tree/main/examples/vmx-cpp)를 참고하세요.
 
 오프라인 의존성 설정은 [W4Studica 라이브러리 추가](adding-w4studica-libraries.md) 안내를 참고하세요.

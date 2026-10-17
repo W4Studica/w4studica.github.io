@@ -39,6 +39,8 @@ guard.Start();
 
 The watchdog starts disabled until both have been fed once. Feed it only from the real events, never from a timer or from the guard. Create it before the guard so it outlives the guard. The deadlines above are examples; the stop time on a real robot has not been measured yet.
 
+For classes and methods, see the [C++ API reference](https://w4studica.github.io/apidocs/).
+
 See the [complete VMX C++ example](https://github.com/W4Studica/GradleRIO/tree/main/examples/vmx-cpp) for object initialization, periodic motor commands, and Driver Station handling.
 
 For offline dependency setup, return to [Adding W4Studica Libraries](adding-w4studica-libraries.md).
