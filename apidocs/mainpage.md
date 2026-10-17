@@ -1,6 +1,6 @@
 # W4Studica C++ API
 
-**2027.0.0-alpha-7-w4.beta.4 · Beta**
+**2027.0.0-alpha-7-w4.beta.5 · Beta**
 
 C++ reference for WPILib on Studica VMX-pi. Use the **Classes** and
 **Namespaces** menus, the navigation tree, or search to find an API.
@@ -33,8 +33,8 @@ HAL simulation APIs and internal integration classes are also listed for referen
 ## Guides and releases
 
 - [W4Studica documentation](/)
-- [Beta release](https://github.com/W4Studica/allwpilib/releases/tag/v2027.0.0-alpha-7-w4.beta.4)
-- [VMX integration source and hardware record](https://github.com/W4Studica/allwpilib/tree/3c03869115766d67e771c16d309cf6b4f938594a/simulation/halsim_vmx)
+- [Beta release](https://github.com/W4Studica/allwpilib/releases/tag/v2027.0.0-alpha-7-w4.beta.5)
+- [VMX integration source and hardware record](https://github.com/W4Studica/allwpilib/tree/a2eaade996868bb5ec13c5ec2d00f1d931facb00/simulation/halsim_vmx)
 
 This reference is generated from the pinned beta source. The VMX HAL SDK is not
 included. Robot programs are C++ only.
