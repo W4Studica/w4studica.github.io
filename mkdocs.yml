@@ -21,6 +21,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.footer
+    - navigation.top
+    - content.code.copy
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -38,6 +40,19 @@ nav:
       - Studica Official Documentation: https://learn.studica.com/
   - C++ API: https://w4studica.github.io/apidocs/
   - GitHub: https://github.com/W4Studica
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
